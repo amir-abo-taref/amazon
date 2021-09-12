@@ -2,17 +2,16 @@
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
+    font-family: 'Amazon';
   }
-  #background-video {
+  body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;
   }
   
   ul {
@@ -20,7 +19,7 @@
   }
   
   a {
-    color: wheat;
+    color: white;
     text-decoration: none;
   }
 

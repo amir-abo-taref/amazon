@@ -1,0 +1,67 @@
+/*downheader*/
+.downheader{
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 4px 10px 3px;
+    
+  }
+  .stars4{
+    color:orange;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  .page1-12{
+    color: gray;
+    padding-left: 70rem;
+  }
+  .modd{
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+  }
+  .modds{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0.5px;
+    grid-row-gap: 0.5px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+      
+    background: white;}
+    .div2 { grid-area: 1 / 2 / 2 / 3;
+     
+    background: white; }
+    .div3 { grid-area: 1 / 3 / 2 / 4;
+      
+      background: white; }
+    .div4 { grid-area: 1 / 4 / 2 / 5;
+      background: white; }
+    .div5 { grid-area: 1 / 5 / 2 / 6;
+      background: white; }
+    .downstars{
+  display: flex;
+    }
+    .picbox2{
+      width: 60px;
+      height: 50px;
+    }
+    .leftbow{
+      width: 200px;
+      height: 40px;
+      opacity: 0.6;
+    }
+    .rigthbow{
+      width: 200px;
+      height: 40px;
+      opacity: 0.6;
+    }
+    .fa{
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
